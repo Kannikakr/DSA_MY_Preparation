@@ -32,12 +32,4 @@ int peakIndexInMountainArray(vector<int>& arr) {
     return start;
 }
 
-int main() {
-    vector<int> arr = {1, 3, 5, 7, 6, 4, 2};
 
-    int peakIndex = peakIndexInMountainArray(arr);
-
-    cout << "Peak Index in Mountain Array = " << peakIndex << endl;
-
-    return 0;
-}
